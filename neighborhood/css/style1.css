@@ -8,7 +8,7 @@ body {
   font-family: 'Ubuntu Mono', monospace;
   text-rendering: optimizeLegibility;
   text-align: center;
-  background: green;
+  background: #51715B;
 }
 
 #toc a {
@@ -22,33 +22,33 @@ body {
 
 h1 {
   font-family: "Press Start 2P";
-  font-size: 130px;
+  font-size: 60px;
   font-style: normal;
-  line-height: 30px;
+  line-height: 10px;
   border: 20px;
   padding: 20px;
 }
 
 h2 {
   font-family: "Concert One";
-  font-size: 110px;
+  font-size: 20px;
   font-style: normal;
 }
 
 h5 {
   font-family: "Ubuntu Mono";
-  font-size: 90px;
+  font-size: 45px;
   font-style: normal;
 }
 
 h6 {
-  font-family: "Squada One";
-  font-size: 70px
+  font-family: "Ubuntu Mono";
+  font-size: 20px
   font-style: normal;
 }
 
 h7 {
-  font-family: "Squada One";
-  font-size: 60px
+  font-family: "Ubuntu Mono";
+  font-size: 15px
   font-style: normal;
 }
