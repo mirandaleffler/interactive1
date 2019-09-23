@@ -1,0 +1,48 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-rendering: optimizeLegibility;
+  text-align: center;
+  background: white;
+}
+
+#toc a {
+  color: black;
+  text-decoration: none;
+}
+
+#toc a:hover {
+  color: #B0E8FA
+}
+
+h1 {
+  font-family: "Open Sans";
+  font-size: 60px;
+  font-style: normal;
+  line-height: 10px;
+  border: 20px;
+  padding: 20px;
+}
+
+h2 {
+  font-family: "Open Sans";
+  font-size: 35px;
+  font-style: bold;
+}
+
+h5 {
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+}
+
+h6 {
+  font-family: "Open Sans";
+  font-size: 20px
+  font-style: normal;
+}
+
+h7 {
+  font-family: "Open Sans";
+  font-size: 15px
+  font-style: normal;
+}

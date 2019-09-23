@@ -8,7 +8,7 @@ body {
   font-family: 'Ubuntu Mono', monospace;
   text-rendering: optimizeLegibility;
   text-align: center;
-  background: #51715B;
+  background: white;
 }
 
 #toc a {
