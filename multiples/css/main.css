@@ -4,11 +4,11 @@
         box-sizing: border-box;
     }
     body {
-        background: black;
+        background: #CD7AA9;
     }
     #desktop {
         display: inline;
-        color: white;
+        color: #CD7AA9;
     }
     #tablet,
     #mobile,
@@ -18,11 +18,11 @@
     /* tablet */
     @media (min-width: 670px) and (max-width: 1024px) {
         body {
-            background: grey;
+            background: #CD7AA9;
         }
         #tablet {
             display: inline;
-            color: white;
+            color: #CD7AA9;
         }
         #desktop,
         #mobile,
@@ -33,11 +33,11 @@
     /* mobile */
     @media (max-width: 670px) {
         body {
-            background: white;
+            background: #CD7AA9;
         }
         #mobile {
             display: inline;
-            color: black;
+            color: #CD7AA9;
         }
         #desktop,
         #tablet,
@@ -48,11 +48,11 @@
     /* print */
     @media print {
         body {
-            background: white;
+            background: #CD7AA9;
         }
         #print {
             display: inline;
-            color: black;
+            color: #CD7AA9;
         }
         #desktop,
         #tablet,
