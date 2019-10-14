@@ -8,7 +8,35 @@ body {
   font-family: 'Ubuntu Mono', monospace;
   text-rendering: optimizeLegibility;
   text-align: center;
-  background: #ACD1B0;
+}
+
+@keyframes bgcolor {
+    0% {
+        background-color: #ACD1B0
+    }
+
+    30% {
+        background-color: #A5E3AC
+    }
+
+    60% {
+        background-color: #67B184
+    }
+
+    90% {
+        background-color: #6A9C7E
+    }
+
+    100% {
+        background-color: #B8E8CB
+    }
+}
+
+body {
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
 }
 
 #toc a {
