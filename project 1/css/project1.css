@@ -1,0 +1,30 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background: #FF009B;
+}
+#desktop {
+    display: inline;
+    color: #FF009B;
+}
+#mobile {
+    display: none;
+}
+
+/* mobile */
+@media (max-width: 670px) {
+    body {
+        background: #FFB4E1;
+    }
+    #mobile {
+        display: inline;
+        color: #FFB4E1;
+    }
+    #desktop {
+        display: none;
+    }
+}
