@@ -1,5 +1,68 @@
-#sqr {
-    width: 150px;
-    height: 150px;
-    background-color: #f00;
+* { margin: 0px; padding: 0px; }
+
+body { background: white;}
+
+
+/* LETTER A */
+#A div {
+  position: absolute;
+}
+
+#A-1 {
+  top: 0px;
+  left: 10px;
+  position: relative;
+}
+#A-2 {
+  top: 0px;
+  left: 300px;
+  position: relative;
+}
+
+/* LETTER B */
+#B div {
+  left: 800px;
+  position: absolute;
+}
+#B-1 {
+  top: 0px;
+  left: 10px;
+  position: relative;
+}
+#B-2 {
+  top: 0px;
+  left: 400px;
+  position: relative;
+}
+#B-3 {
+  top: 300px;
+  left: 400px;
+  position: relative;
+}
+
+/* LETTER C */
+#C div {
+  left: 1600px;
+  position: absolute;
+}
+#C-1 {
+  top: 0px;
+  left: 10px;
+  position: relative;
+}
+
+/* LETTER D */
+#D div {
+  left: 2000px;
+  position: absolute;
+}
+#D-1 {
+  top: 0px;
+  left: 10px;
+  position: relative;
+}
+#D-2 {
+  top: 0px;
+  left: 400px;
+  position: relative;
 }
